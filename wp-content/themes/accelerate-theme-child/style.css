@@ -16,6 +16,33 @@
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
+.featured-work-posts h2 {
+  font-size: 16px;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.featured-work-posts h5 {
+  font-size: 14px;
+  font-weight: lighter;
+	font-family: 'Montserrat';
+  text-align: center;
+  margin-bottom: 30px;
+  color: #a6a6a6;
+}
+
+.featured-work-lists li {
+  float: left;
+  padding: 30px;
+  list-style-type: none;
+}
+
+.featured-work-lists ul {
+  list-style-type: none;
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -46,4 +73,40 @@
 	font-family: 'Montserrat';
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+.case-study-sidebar {
+  float: left;
+  width: 30%;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.case-study-images {
+  float: right;
+  margin-top: 15px;
+  clear: right;
+}
+
+.case-study {
+  clear: left;
+}
+
+.case-study h2 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.case-study h5 {
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #828282;
+}
+
+.case-study h6 {
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top: 10px;
 }
